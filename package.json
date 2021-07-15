@@ -1,0 +1,16 @@
+{
+    "name": "dynamic-dns",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Matthew_Cash",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^14.17.5",
+        "node-wifi": "^2.0.14"
+    }
+}
