@@ -11,7 +11,7 @@ import { getAddress } from './route';
 
 const server = dgram.createSocket('udp4');
 
-const ttl = 60;
+const ttl = 900;
 const acceptableQuery = QueryType.A;
 
 server.on('message', async (message, rinfo) => {
